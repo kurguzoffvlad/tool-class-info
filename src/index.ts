@@ -94,7 +94,7 @@ export class ClassInfo {
   logStructure(): void {
     const info = this.getStructure();
     console.log(`=== Публичная структура ${this.constructor.name} ===`);
-    console.log('📦 Публичные свойства:', info.publicProperties.length ? info.publicProperties : 'нет');
+    console.log('📦 Публичные свойства!!!:', info.publicProperties.length ? info.publicProperties : 'нет');
     console.log('🔧 Публичные методы:', info.publicMethods.length ? info.publicMethods : 'нет');
     console.log('🔒 Приватные поля (скрыты):', info.privateFields.length ? info.privateFields : 'нет');
   }
